@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple script form</title>
+
+    <style>
+        td {
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+
+        tr {
+            border: none;
+        }
+    </style>
+</head>
+
+<body > 
+    <div align="center" style="width: 600px; background-color: burlywood; ">
+    <h1>Muhammad Sadiq CCO-116650</h1>
+    <h1><em>km custom form example using applescript</em><br><span style="font-size: 12px;">(by JmicheaelTX)</span></h1>
+   
+        <form  action=""">
+            <table border="1px" style=" border-style:solid;">
+                <tr>
+                    <td>name:</td>
+                    <td><input type="text" style="border-style:solid; ; border-color: rgb(135, 200, 226);"></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                    </td>
+                    <td> <input type="email" style="width: 300px;"></td>
+                </tr>
+                <tr>
+                    <td>password:</td>
+                    <td><input type="password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>approval required: <br><span style="text-transform:capitalize ; font-weight: normal;">
+                            click on the button or text to <br>select
+
+                    </td>
+                    <td style="padding-bottom: 30px;"> <input type="checkbox" name="" id=""> do you approve?</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">pick your favourite: <br><span
+                            style="text-transform:capitalize ; font-weight: normal;">click ont he button or text to
+                            <br>select
+                        </span></td>
+                    <td> <label><input type="radio" name="choice" value="a">Choice A </label></td>
+                <tr>
+                    <td> <label> <input type="radio" name="choice" value="b">Choice b </label></td>
+                </tr>
+                <tr>
+                    <td> <label><input type="radio" name="choice" value="c">Choice c </label></td>
+                </tr>
+                <tr>
+                    <td>popup menu:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>list <br>
+                        <span style="font-weight: normal;"> setup options: <br>
+                            <ul>
+                                <li>number of rows to display</li>
+                                <li> allow multi-select</li>
+                            </ul>
+                        </span>
+                    </td>
+                    <td> <select name="city" multiple style="width: 150px;height: 100px; ;">
+                            <option value="khi">karachi</option>
+                            <option value="lhr">lahore</option>
+                            <option value="hyd">hyderabad</option>
+                            <option value="rwp">rawalpindi</option>
+                            <option value="isb">islamabad</option>
+                            <option value="ksr">ksur</option>
+                            <option value="lli">loralai</option>
+                            <option value="pwr">peshawar</option>
+                            <option value="mlr">malir</option>
+                            <option value="llk">lalookhet</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>field ingored by KM</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr><td style="padding-bottom: 20px;">text area </td> <td><textarea name="" id="" cols="30" rows="3"></textarea></td></tr>
+            </table>
+            <input type="submit" name="save" value="save"> <input type="reset" name="cancle" value="cancel"> <input type="submit" name="resize" value="resize">
+        </form>
+    </div>
+</body>
+
+</html>
